@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.header
+{
+	height: 50px;
+	background: #444444;	
+}
+
+.container
+{
+	width: 940px;
+	margin: 0px auto;
+	
+}
+
+.headerMenuLogo
+{
+		padding-top: 10px;
+}
+
+
+
+li 
+{
+   
+    float: left;
+    padding-right: 54px;
+   
+}
+
+a
+{
+	text-decoration: none;	
+}
+
+.headerMenuText
+{
+	font-size: 18px;
+	font-family: SourceSansPro;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #aaaaaa;
+	
+}
+
+.clear
+{
+	clear: both;	
+}
+
+
+
+.pattern
+{
+	height:485px;
+	background-image: url('images/bluePattern.jpg');
+	background-repeat: repeat;
+		
+}
+
+.patternContainerLeft
+{
+	width: 50%;
+	/*background-color: yellow;*/
+	float: left;
+}
+
+.patternContainerRight
+{	
+	float: left;
+	width: 50%;
+	/*background-color: red;*/
+}
+
+h1
+{
+		font-family: SourceSansPro;
+		font-size: 48px;
+		font-weight: bold;
+		padding-top: 190px;
+		color:#FFFFFF;
+}
+
+h2
+{
+		font-family: SourceSansPro;
+		font-size: 36px;
+		padding-top: 12px;
+		color:#FFFFFF;
+}
+
+.button1
+{
+	width: 170px;
+	height:50px;
+  background-color: #f2f2f2;
+  color:#000000;
+  text-decoration:none;	
+  border-radius:7px;
+  font-size: 19px;
+  font-family: SourceSansPro;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.button2
+{
+	width: 170px;
+	height:50px;
+  background-color: #ff9900;
+  color:#FFFFFF;
+  text-decoration:none;	
+  border-radius:7px;
+  font-size: 19px;
+  font-family: SourceSansPro;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.patternContainerRight
+{
+	padding-top: 50px;	
+}
+
+.content
+{
+	height:505px;
+	/*background-color: red;	*/
+}
+
+
+  
+  .how
+  {
+  		font-family: SourceSansPro;
+  		 font-size: 36px;
+  		//text-align: center;	
+  		padding-top: 50px;
+  		//padding-bottom: 70px;
+
+  }
+  
+  .circleContainer
+  {
+  			padding-top: 70px;
+  			//background-color: yellow;
+  }
+  
+  .drawCircle
+  {
+  		width: 140px;
+  		height: 140px;
+  		border-radius:100%;
+  		background: #efefef;	
+  		float: left;
+  		margin-left: 70px;
+  }
